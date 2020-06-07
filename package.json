@@ -1,6 +1,6 @@
 {
   "name": "ember-resize-observer-modifier",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Use ResizeObserver through an Ember Modifier",
   "keywords": [
     "ember-addon"
