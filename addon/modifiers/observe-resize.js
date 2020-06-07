@@ -6,7 +6,7 @@ const observerMap = new WeakMap();
  * @param {Element} [element] The DOM element this modifier is applied to
  * @param {[Function]} [params] Positional modifier params
  */
-function observeResize(element, [changeHandler]) {
+export function observeResize(element, [changeHandler]) {
   let observer;
 
   if (observerMap.has(changeHandler)) {
